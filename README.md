@@ -22,6 +22,9 @@ This project uses a customer churn dataset with features such as:
 - **WatchlistSize**: The number of items in the customer’s watchlist.
 - **Churn**: The target variable, where 1 indicates the customer churned, and 0 indicates they stayed.
 
+### Dataset Link
+- You can download the customer churn dataset from the following link: [Customer Churn Dataset](https://drive.google.com/drive/folders/1KfLIzT6vpDLcbWrQDKm9zu-uAftGBSgX?usp=sharing)
+
 ## Handling Imbalanced Data with SMOTE
 
 In churn prediction, it is common for the dataset to be imbalanced, with fewer customers churning (1) compared to those who do not churn (0). To address this, we used **SMOTE (Synthetic Minority Over-sampling Technique)** to artificially increase the number of churn cases by generating synthetic samples. This helps balance the dataset and ensures that machine learning models do not become biased towards the majority class (non-churn).
