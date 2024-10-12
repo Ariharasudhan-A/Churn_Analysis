@@ -1,4 +1,4 @@
-# Churn Analysis Using Machine Learning
+# Churn Prediction Using Machine Learning
 
 ## Overview
 
